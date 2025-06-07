@@ -6,7 +6,8 @@ export default function Header() {
       <nav className="p-4 bg-gray-800 text-white flex justify-center gap-6">
         <Link href="/home" className="hover:underline">Home</Link>
         <Link href="/about" className="hover:underline">About</Link>
-        <Link href="/posts" className="hover:underline">Post</Link>
+        <Link href="/posts" className="hover:underline">Posts</Link>
+        <Link href="/users" className="hover:underline">Users</Link>
       </nav>
     </header>
   );
